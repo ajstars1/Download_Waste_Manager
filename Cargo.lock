@@ -3,14 +3,6 @@
 version = 3
 
 [[package]]
-name = "Rust"
-version = "0.1.0"
-dependencies = [
- "env_logger",
- "log",
-]
-
-[[package]]
 name = "aho-corasick"
 version = "1.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -115,6 +107,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149"
 
 [[package]]
+name = "pathbuf"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cc5ef818343d9b62a8391bfbc8fbd449acf2e6ddd2f1a9aede0eae4c7d91c25c"
+
+[[package]]
 name = "regex"
 version = "1.10.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -142,6 +140,15 @@ name = "regex-syntax"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
+
+[[package]]
+name = "rust"
+version = "0.1.0"
+dependencies = [
+ "env_logger",
+ "log",
+ "pathbuf",
+]
 
 [[package]]
 name = "utf8parse"
