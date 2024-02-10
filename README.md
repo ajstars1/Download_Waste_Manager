@@ -7,6 +7,6 @@ This tool is designed to help you manage your waste. It will help you to keep tr
 If you would like to contribute to this tool, please contact us.
 
 ## License
-This tool is licensed under the MIT license.
+This tool is licensed under the [MIT License](LICENSE).
 
 
